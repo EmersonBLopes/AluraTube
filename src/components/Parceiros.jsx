@@ -7,12 +7,16 @@ const StyledParceiros = styled.section`
     flex-direction: column;
   }
 
+  .parceiro__titulo {
+    margin: 1rem 0 1rem 3rem;
+  }
+
   .parceiros-container {
     display: flex;
   }
 
   .parceiro {
-    margin:1rem 0;
+    margin: 1rem 0;
     text-align: center;
   }
 
@@ -36,6 +40,10 @@ const StyledParceiros = styled.section`
       justify-content: space-between;
     }
 
+    .parceiros__titulo {
+      margin: 1rem 0 1rem 1rem;
+    }
+
     .parceiros-container {
       justify-content: space-around;
     }
@@ -43,18 +51,22 @@ const StyledParceiros = styled.section`
     .parceiro__picture {
       width: 100px;
     }
- 
+
     @media screen and (min-width: 768px) {
-      .parceiros{
-      margin: 1rem 0 1rem 1rem;
+      .parceiros {
+        margin: 1rem 0 1rem 1rem;
       }
 
-      .parceiros-container{
-        width:50vw;
-        max-width:430px;
+      .parceiro__titulo {
+        margin: 1rem 0 1rem 3rem;
+      }
+
+      .parceiros-container {
+        width: 50vw;
+        max-width: 430px;
       }
     }
-   }
+  }
 `;
 
 export default function parceiros(props) {
