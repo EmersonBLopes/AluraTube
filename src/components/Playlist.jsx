@@ -18,6 +18,11 @@ const StyledPlaylist = styled.section`
     display: flex;
   }
 
+  .video__link  {
+    text-decoration:none;
+    color:#000;
+  }
+
   @media screen and (min-width: 375px) {
       .playlist__name{
         margin:1rem 0 1rem 1rem;
